@@ -14,7 +14,7 @@ As we figure out the main results and develop the storyline, we can add to the [
 
 Overleaf project https://www.overleaf.com/project/62ba65027822b61f00348ec6
 
-#Hackathon schedule (in Canberra/Sydney time zone)
+# Hackathon schedule (in Canberra/Sydney time zone)
 
 Fortnightly on Thursday mornings:
 
