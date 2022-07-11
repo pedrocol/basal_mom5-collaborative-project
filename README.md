@@ -1,6 +1,6 @@
 # basal_mom5
 
-A collaborative project to work on the ACCESS-OM2-01 + "basal melt distributed at depth parameterization" simulations. This is a central repository where we can propose different scenarios that could affect the impact of fresh water input at depth. Diagnostics, figures, scripts, and/or changes to the parameterization are also open for discussion.
+A collaborative project to work on the ACCESS-OM2-01 + "basal melt distributed at depth parameterization" simulations. This is a central repository where we can propose different scenarios that could affect the overall impact of fresh water input at depth. Diagnostics, figures, scripts, and/or changes to the parameterization are also open for discussion.
 
 # How it works (from https://github.com/adele157/easterlies-collaborative-project)
 
@@ -13,6 +13,13 @@ To start contributing to the code, make your own branch directly in this reposit
 As we figure out the main results and develop the storyline, we can add to the [Results Summary here] and [draft figure list for the paper here].
 
 Overleaf project https://www.overleaf.com/project/62ba65027822b61f00348ec6
+
+# Main experiment and parameterization design
+
+The parameterization can be found [Here](https://github.com/pedrocol/basal_routines/tree/master/MOM_routines). It is based on Mathiot et al., 2017. It distributes the runoff south of 60S uniformly at depth, between the ice shelf front and the grounding line (data coming from Merino et al., 2016).
+
+This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/), using the restart after 250 years spinup.
+
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
