@@ -1,29 +1,3 @@
-init_year=4
-end_year=4
-var="salt"
-conf1=accessom2-GPC016
-conf=`echo "${conf1: -2}"`
-conf2=accessom2-GPC009
-confm=`echo "${conf2: -2}"`
-
-for var in "salt" "temp"; do
-for year in $(seq $init_year $end_year ) ; do
-    case "$year" in (0|1|2|3|4) digit=0;esac
-    case "$year" in (5|6|7|8|9) digit=1;esac
-    case "$year" in (10|11|12|13|14) digit=2;esac
-    yearp=$(printf "%02d" $year)
-    ncdiff "$conf1"/output00"$digit"/ocean/ocean-3d-"$var"-1-monthly-mean-ym_19"$yearp"_01.nc "$conf2"/output00"$digit"/ocean/ocean-3d-"$var"-1-monthly-mean-ym_19"$yearp"_01.nc diff_"$conf"m"$confm"_"$var"_y"$yearp".nc
-    ncra -O "$conf1"/output00"$digit"/ocean/ocean-3d-"$var"-1-monthly-mean-ym_19"$yearp"_01.nc "$conf1"_"$var"_y"$yearp"_avet.nc
-    ncra -O -d st_ocean,20,28 "$conf1"_"$var"_y"$yearp"_avet.nc "$conf1"_"$var"_y"$yearp"_avet_avek20-28.nc
-done
-#Personal diags
-#ncrcat diff_"$conf"m"$confm"_"$var"_y* diff_"$conf"m"$confm"_"$var"_y00-"$yearp".nc
-#Diags for Mathiot 2017
-ncra -O diff_"$conf"m"$confm"_"$var"_y"$yearp".nc diff_"$conf"m"$confm"_"$var"_y"$yearp"_avet.nc
-ncra -O -d st_ocean,20,28 diff_"$conf"m"$confm"_"$var"_y"$yearp"_avet.nc diff_"$conf"m"$confm"_"$var"_y"$yearp"_avet_avek20-28.nc
-done
-
-
 ##################################################################################################
 #Init values
 ##################################################################################################
