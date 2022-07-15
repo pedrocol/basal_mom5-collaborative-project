@@ -20,6 +20,13 @@ The parameterization can be found [Here](https://github.com/pedrocol/basal_routi
 
 This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/), using the restart after 250 years spinup.
 
+So far three runs are available
+
+accessom2_10-GPC001: Tfreezinga calculated with salinity equal to insitu value (1 year avail)
+accessom2_10-GPC002: Tfreezing calculated with salinity equal to zero (1 year avail)
+accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfreezing as in GPC001. This is done in order to avoid warming the ocean. (3 years)
+ 
+
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
