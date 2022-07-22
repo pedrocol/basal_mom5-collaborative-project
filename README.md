@@ -22,7 +22,7 @@ This parameterization is run in the same model version as the run done by Adele 
 
 So far three runs are available
 
-accessom2_10-GPC001: Tfreezinga calculated with salinity equal to insitu value (1 year avail)
+accessom2_10-GPC001: Tfreezing calculated with salinity equal to insitu value (1 year avail)
 
 accessom2_10-GPC002: Tfreezing calculated with salinity equal to zero (1 year avail)
 
