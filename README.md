@@ -18,7 +18,7 @@ Overleaf project https://www.overleaf.com/project/62ba65027822b61f00348ec6
 
 The parameterization can be found [Here](https://github.com/pedrocol/basal_routines/tree/master/MOM_routines). It is based on Mathiot et al., 2017. It distributes the runoff south of 60S uniformly at depth, between the ice shelf front and the grounding line (data coming from Merino et al., 2016).
 
-This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/), using the restart after 250 years spinup.
+This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/ control /home/157/akm157/access-om2/01deg_jra55v13_ryf9091_rerun_for_easterlies/) , using the restart after 250 years spinup.
 
 So far three runs are available
 
