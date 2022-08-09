@@ -28,7 +28,13 @@ accessom2_10-GPC002: Tfreezing calculated with salinity equal to zero (1 year av
 
 accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfreezing as in GPC001. This is done in order to avoid warming the ocean. (3 years)
  
+A bug was fixed in the intialization, previous runs are re runned as follows
 
+accessom2_10-GPC004: Idem as GPC001
+
+accessom2_10-GPC005 Idem as GPC002
+
+accessom2_10-GPC006: Idem as GPC003
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
