@@ -30,11 +30,15 @@ accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfr
  
 A bug was fixed in the intialization, previous runs are re runned as follows
 
-accessom2_10-GPC004: Idem as GPC001
+accessom2_10-GPC004: Tbasal = Tfreezing(s=0)
 
-accessom2_10-GPC005 Idem as GPC002
+accessom2_10-GPC005: Tbasal = Tfreezing(s=s_insitu) 
 
-accessom2_10-GPC006: Idem as GPC003
+accessom2_10-GPC006: Tbasal = min( Tfreezing(s=/0),Tinsitu)
+
+accessom2_10-GPC007: Idem as GPC008 but vert dist as in BG03
+
+accessom2_10-GPC008: Tbasal = min( Tfreezing(s=s_insitu),Tinsitu)
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
