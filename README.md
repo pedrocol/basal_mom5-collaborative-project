@@ -30,9 +30,9 @@ accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfr
  
 A bug was fixed in the intialization, previous runs are re runned as follows
 
-accessom2_10-GPC004: Tbasal = Tfreezing(s=0) (2 years)
+accessom2_10-GPC004: Tbasal = Tfreezing(s=s_insitu) (2 years)
 
-accessom2_10-GPC005: Tbasal = Tfreezing(s=s_insitu) (2 years)
+accessom2_10-GPC005: Tbasal = Tfreezing(s=0) (2 years)
 
 accessom2_10-GPC006: Tbasal = min( Tfreezing(s=s_insitu),T_insitu) (2 years)
 
