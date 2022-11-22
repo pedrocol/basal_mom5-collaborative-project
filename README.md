@@ -40,7 +40,7 @@ accessom2_10-GPC007: Idem as GPC008 but vert dist as in BG03 (2 years)
 
 accessom2_10-GPC008: Tbasal = min( Tfreezing(s=s_0),T_insitu) (5 years)
 
-New simulations:
+# New simulations (use these ones!!):
 
 accessom2_10-GPC013: Tbasal based on heat balance formulation
 
