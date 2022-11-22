@@ -30,15 +30,21 @@ accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfr
  
 A bug was fixed in the intialization, previous runs are re runned as follows
 
-accessom2_10-GPC004: Tbasal = Tfreezing(s=0) (2 years)
+accessom2_10-GPC004: Tbasal = Tfreezing(s=s_insitu) (2 years)
 
-accessom2_10-GPC005: Tbasal = Tfreezing(s=s_insitu) (2 years)
+accessom2_10-GPC005: Tbasal = Tfreezing(s=0) (2 years)
 
 accessom2_10-GPC006: Tbasal = min( Tfreezing(s=s_insitu),T_insitu) (2 years)
 
 accessom2_10-GPC007: Idem as GPC008 but vert dist as in BG03 (2 years)
 
 accessom2_10-GPC008: Tbasal = min( Tfreezing(s=s_0),T_insitu) (5 years)
+
+# New simulations (use these ones!!):
+
+accessom2_10-GPC013: Tbasal based on heat balance formulation
+
+accessom2_10-GPC015: Tbasal based on Gade line
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
