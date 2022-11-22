@@ -40,6 +40,11 @@ accessom2_10-GPC007: Idem as GPC008 but vert dist as in BG03 (2 years)
 
 accessom2_10-GPC008: Tbasal = min( Tfreezing(s=s_0),T_insitu) (5 years)
 
+New simulations:
+
+accessom2_10-GPC013: Tbasal based on heat balance formulation
+accessom2_10-GPC015: Tbasal based on Gade line
+
 # Hackathon schedule (in Canberra/Sydney time zone)
 
 Fortnightly on Thursday mornings:
