@@ -46,6 +46,8 @@ accessom2_10-GPC013: Tbasal based on heat balance formulation
 
 accessom2_10-GPC015: Tbasal based on Gade line
 
+accessom2_10-GPC017: Tbasal based on Gade line and Merino distributed Ice Berg Calving Flux on Gade line
+
 # Hackathon schedule (in Canberra/Sydney time zone)
 
 Fortnightly on Thursday mornings:
