@@ -12,7 +12,7 @@ To start contributing to the code, make your own branch directly in this reposit
 
 As we figure out the main results and develop the storyline, we can add to the [Results Summary here] and [draft figure list for the paper here].
 
-Overleaf project https://www.overleaf.com/project/62ba65027822b61f00348ec6
+Overleaf project https://www.overleaf.com/9899553184vvvjhhhcffnf
 
 # Main experiment and parameterization design
 
