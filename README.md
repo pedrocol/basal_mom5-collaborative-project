@@ -12,7 +12,7 @@ To start contributing to the code, make your own branch directly in this reposit
 
 As we figure out the main results and develop the storyline, we can add to the [Results Summary here] and [draft figure list for the paper here].
 
-Overleaf project https://www.overleaf.com/project/62ba65027822b61f00348ec6
+Overleaf project https://www.overleaf.com/9899553184vvvjhhhcffnf
 
 # Main experiment and parameterization design
 
@@ -20,31 +20,17 @@ The parameterization can be found [Here](https://github.com/pedrocol/basal_routi
 
 This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/ control /home/157/akm157/access-om2/01deg_jra55v13_ryf9091_rerun_for_easterlies/) , using the restart after 250 years spinup.
 
-So far three runs are available
-
-accessom2_10-GPC001: Tfreezing calculated with salinity equal to insitu value (1 year avail)
-
-accessom2_10-GPC002: Tfreezing calculated with salinity equal to zero (1 year avail)
-
-accessom2_10-GPC003: Tbasal calculated tbasal = min(tfreezing,Tinsitu), with tfreezing as in GPC001. This is done in order to avoid warming the ocean. (3 years)
- 
-A bug was fixed in the intialization, previous runs are re runned as follows
-
-accessom2_10-GPC004: Tbasal = Tfreezing(s=s_insitu) (2 years)
-
-accessom2_10-GPC005: Tbasal = Tfreezing(s=0) (2 years)
-
-accessom2_10-GPC006: Tbasal = min( Tfreezing(s=s_insitu),T_insitu) (2 years)
-
-accessom2_10-GPC007: Idem as GPC008 but vert dist as in BG03 (2 years)
-
-accessom2_10-GPC008: Tbasal = min( Tfreezing(s=s_0),T_insitu) (5 years)
-
 # New simulations (use these ones!!):
 
-accessom2_10-GPC013: Tbasal based on heat balance formulation
+accessom2_10-GPC023: Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-accessom2_10-GPC015: Tbasal based on Gade line
+accessom2_10-GPC026: Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
+
+Control simulation can be found here:
+```
+session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
+control = '01deg_jra55v13_ryf9091_DSW'
+```
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
