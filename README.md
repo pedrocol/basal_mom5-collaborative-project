@@ -22,9 +22,11 @@ This parameterization is run in the same model version as the run done by Adele 
 
 # New simulations (use these ones!!):
 
-accessom2_10-GPC023: Tbasal based on Gade line, calving flux inserted at the surface as runoff
+accessom2-GPC023: Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-accessom2_10-GPC026: Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
+accessom2-GPC026: Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
+
+session_name = '/g/data/e14/pc5520/model_data/access-om2/basal_melt_MOM5/basal_melt_MOM5.db'
 
 Control simulation can be found here:
 session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
