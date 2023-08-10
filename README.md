@@ -18,7 +18,7 @@ Overleaf project https://www.overleaf.com/9899553184vvvjhhhcffnf
 
 The parameterization can be found [Here](https://github.com/pedrocol/basal_routines/tree/master/MOM_routines). It is based on Mathiot et al., 2017. It distributes the runoff south of 60S uniformly at depth, between the ice shelf front and the grounding line (data coming from Merino et al., 2016).
 
-This parameterization is run in the same model version as the run done by Adele (/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_rerun_for_easterlies/ control /home/157/akm157/access-om2/01deg_jra55v13_ryf9091_rerun_for_easterlies/) , using the restart after 250 years spinup.
+This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, starting from WOA. The bathymetry is modified slightly (minimum depth is slightly deeper than normal) from the usual `01deg_jra55v13_ryf9091` simulations, as done by Wilton Aguiar.
 
 # New simulations (use these ones!!):
 
@@ -29,8 +29,10 @@ accessom2-GPC026: Tbasal based on Gade line and Merino distributed Iceberg Calvi
 session_name = '/g/data/e14/pc5520/model_data/access-om2/basal_melt_MOM5/basal_melt_MOM5.db'
 
 Control simulation can be found here:
+```
 session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
 control = '01deg_jra55v13_ryf9091_DSW'
+```
 
 # Hackathon schedule (in Canberra/Sydney time zone)
 
