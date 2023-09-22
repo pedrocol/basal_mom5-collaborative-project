@@ -22,11 +22,13 @@ This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, star
 
 # New simulations (use these ones!!):
 
-accessom2-GPC023: Tbasal based on Gade line, calving flux inserted at the surface as runoff
+GPC023 (Basal with Gade, No ICB)              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb   : Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-accessom2-GPC026: Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
+GPC026 (Basal with Gade, Yes ICB with gade)   01deg_jra55v13_ryf9091_DSW_BasalGade_YesIcb  : Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
 
-session_name = '/g/data/e14/pc5520/model_data/access-om2/basal_melt_MOM5/basal_melt_MOM5.db'
+GPC029 (Basal No Gade, No ICB)                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+
+session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
 
 Control simulation can be found here:
 ```
