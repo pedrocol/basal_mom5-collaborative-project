@@ -23,7 +23,11 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
 ## Simulation responses
 
 * Comparison with observations (No plots or comparison yet on BASAL-NOGADE):
-  - [No obvious improvement in shelf bottom temperature](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672352663) compared to Schmidtko obs in BASAL or BASAL-ICEBERG. 
+  Improvement of biases:
+
   - [Bottom fresh bias compared to Schmidtko improves in Weddell, Ross, Prydz, Adelie](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672354811). Some of the improvement comes from BASAL, with further improvement from BASAL-ICEBERG. No improvement in West Antarctica.
   - [Surface fresh bias very close to Antarctic coast improves](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672376142). Surface biases elsewhere over the shelf / open ocean remain the same.
-  - [At mid-depth (300-350m), the biases get worse](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672383875) in BASAL and BASAL-ICEBERG. The biases that degrade are: too cold in West Antarctica, too salty in Amundsen / Ross / Weddell.
+ 
+  Deterioration of biases:
+  - [No obvious improvement in shelf bottom temperature](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672352663) compared to Schmidtko obs in BASAL or BASAL-ICEBERG. Amundsen/Bellingshausen gets worse (cold bias becomes MUCH colder).
+  - [At mid-depth (300-350m), also no obvious improvement](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672383875) in BASAL and BASAL-ICEBERG. The biases that degrade are: too cold in West Antarctica, too salty in Amundsen / Ross / Weddell, particularly in BASAL-ICEBERG.
