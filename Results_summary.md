@@ -22,7 +22,7 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
 
 ## Simulation responses
 
-* *Comparison with observations* (No plots or comparison yet on BASAL-NOGADE):
+* **Comparison with observations** (No plots or comparison yet on BASAL-NOGADE):
   
   Improvement of biases:
   - [Bottom fresh bias compared to Schmidtko improves in Weddell, Ross, Prydz, Adelie](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672354811). Some of the improvement comes from BASAL, with further improvement from BASAL-ICEBERG. No improvement in West Antarctica.
@@ -32,4 +32,4 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
   - [No obvious improvement in shelf bottom temperature](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672352663) compared to Schmidtko obs in BASAL or BASAL-ICEBERG. Amundsen/Bellingshausen gets worse (cold bias becomes MUCH colder).
   - [At mid-depth (300-350m), also no obvious improvement](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672383875) in BASAL and BASAL-ICEBERG. The biases that degrade are: too cold in West Antarctica, too salty in Amundsen / Ross / Weddell, particularly in BASAL-ICEBERG.
 
-* DSW export increases ~30% in BASAL and ~80% in BASAL-ICEBERG. Large increases in Adelie and Prydz in both simulations. Ross doesn't change much / decreases (check new region plots)? Weddell doesn't change much in BASAL and increases a lot in BASAL-ICEBERG. We also get dense water formation in the Amundsen in BASAL-ICEBERG! _Why do the different regions respond differently to the different perturbations?_
+* **DSW export** [increases](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/65#issuecomment-1679815469) ~30% in BASAL and ~80% in BASAL-ICEBERG. Large increases in Adelie and Prydz in both simulations. It's hard to see if the Ross changes much from the cross slope transport plots, but there is decreased age in the abyss there. Weddell doesn't change much in BASAL but increases a lot in BASAL-ICEBERG. We also get dense water formation in the Amundsen in BASAL-ICEBERG! These dense water changes are also seen in bottom age, with more ventilation to the abyss in all sectors in BASAL-ICEBERG, and decreased age on the shelf in the Amundsen indicating the increased convection there. _Why do the different regions respond differently to the different perturbations?_
