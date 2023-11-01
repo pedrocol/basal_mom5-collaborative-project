@@ -10,7 +10,7 @@ The [Project/analysis Overview](https://github.com/pedrocol/basal_mom5-collabora
 
 To start contributing to the code, make your own branch directly in this repository, edit away on your branch, and then submit pull requests between your branch and the master branch (or merge directly).
 
-As we figure out the main results and develop the storyline, we can add to the [Results Summary here] and [draft figure list for the paper here].
+As we figure out the main results and develop the storyline, we can add to the [Results Summary here](https://github.com/pedrocol/basal_mom5-collaborative-project/blob/main/Results_summary.md) and [draft figure list for the paper here](https://github.com/pedrocol/basal_mom5-collaborative-project/blob/main/Figure_outline.md).
 
 Overleaf project https://www.overleaf.com/9899553184vvvjhhhcffnf
 
