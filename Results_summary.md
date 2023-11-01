@@ -31,3 +31,5 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
   Deterioration of biases:
   - [No obvious improvement in shelf bottom temperature](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672352663) compared to Schmidtko obs in BASAL or BASAL-ICEBERG. Amundsen/Bellingshausen gets worse (cold bias becomes MUCH colder).
   - [At mid-depth (300-350m), also no obvious improvement](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672383875) in BASAL and BASAL-ICEBERG. The biases that degrade are: too cold in West Antarctica, too salty in Amundsen / Ross / Weddell, particularly in BASAL-ICEBERG.
+
+* DSW export increases ~30% in BASAL and ~80% in BASAL-ICEBERG. Large increases in Adelie and Prydz in both simulations. Ross doesn't change much / decreases (check new region plots)? Weddell doesn't change much in BASAL and increases a lot in BASAL-ICEBERG. We also get dense water formation in the Amundsen in BASAL-ICEBERG! _Why do the different regions respond differently to the different perturbations?_
