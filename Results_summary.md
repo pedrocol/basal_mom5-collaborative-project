@@ -20,6 +20,8 @@ Same as BASAL, but calving (iceberg) component of meltwater is distributed horiz
 
 Same as BASAL, i.e. the basal melt component of the runoff is distributed vertically, and calving component is still at the surface. Except in this case, the temperature of the basal meltwater is ... _Pedro: Add details on how you set the temperature of the meltwater in this case._
 
+* The impact of the Gade line formulation (i.e. putting basal and iceberg waters in at very cold temperatures) is seen in the change in heat flux over the shelf. In the control we have ~40TW of heat loss from the ocean over the shelf. The [cooling increases](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/66#issuecomment-1681499552) by ~25% in BASAL and by ~40% in BASAL-ICEBERG.
+
 ## Simulation responses
 
 * **Comparison with observations** (No plots or comparison yet on BASAL-NOGADE):
