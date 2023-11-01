@@ -23,8 +23,8 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
 ## Simulation responses
 
 * Comparison with observations (No plots or comparison yet on BASAL-NOGADE):
+  
   Improvement of biases:
-
   - [Bottom fresh bias compared to Schmidtko improves in Weddell, Ross, Prydz, Adelie](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672354811). Some of the improvement comes from BASAL, with further improvement from BASAL-ICEBERG. No improvement in West Antarctica.
   - [Surface fresh bias very close to Antarctic coast improves](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/63#issuecomment-1672376142). Surface biases elsewhere over the shelf / open ocean remain the same.
  
