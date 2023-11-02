@@ -37,7 +37,8 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
   - We also seem to be getting [unrealistically cold temperatures](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/62#issuecomment-1690682954) (below the in situ freezing point), particularly in the West Antarctic sector. How/why is this occurring?
 
 * **DSW export** [increases](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/65#issuecomment-1789862897) ~30% in BASAL and ~80% in BASAL-ICEBERG, with very little change from the control in the BASAL-NOGADE simulation. Large increases in Adelie, mostly due to the BASAL component. Ross increases in both experiments, but more in BASAL-ICEBERG. Weddell doesn't change at all really in BASAL but increases a lot in BASAL-ICEBERG. Prydz seems to decrease or stay mostly the same. We also get dense water formation in the Amundsen in BASAL-ICEBERG! These dense water changes are also seen in [bottom age](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/29#issuecomment-1672377844), with more ventilation to the abyss in all sectors in BASAL-ICEBERG, and decreased age on the shelf in the Amundsen indicating the increased convection there. _Why do the different regions respond differently to the different perturbations?_
-This increase in DSW occurs because less fresh water input at the surface means that denser surface waters can form in the DSW formation regions.
+ 
+  This increase in DSW occurs because less fresh water input at the surface means that denser surface waters can form in the DSW formation regions.
 
 * The upper ocean [**ASC** decreases](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/58#issuecomment-1691024637) in BASAL and BASAL-ICEBERG. Why? Is this consistent with cross-slope salinity gradient changes?
 
