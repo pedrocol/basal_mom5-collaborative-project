@@ -40,7 +40,7 @@ Same as BASAL, i.e. the basal melt component of the runoff is distributed vertic
  
   This increase in DSW occurs because less fresh water input at the surface means that denser surface waters can form in the DSW formation regions.
 
-* The upper ocean [**ASC** decreases](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/58#issuecomment-1691024637) in BASAL and BASAL-ICEBERG. Why? Is this consistent with cross-slope salinity gradient changes?
+* The [**ASC** changes differently in different regions and depths](https://github.com/pedrocol/basal_mom5-collaborative-project/issues/58#issuecomment-1691024637) in BASAL and BASAL-ICEBERG. 
 
 * What are the **Sea ice** changes?
 
