@@ -4,6 +4,8 @@ Note that there is detailed discussion of these figure in [this issue]([https://
 
 ### NOTE: Each figure to have its own notebook.
 
+Most of these will show control, basal-gade and iceberg (not basal-no-gade)
+
 Fig 1 - Model setup / schematic. Pedro/Matt
 
 Fig 2 - Iceberg flux map. Basal melt max depth vs longitude. Basal/iceberg split vs longitude. Pedro/Matt
