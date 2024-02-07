@@ -18,7 +18,7 @@ Fig 5 - Bottom age, showing changes in ventilation. Adele
 
 Fig 6 - T/S diagrams - circumpolar or several regions? Compare to obs (tricky)? Hannah
 
-Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen, Ross, fresh shelf transect in East Antarctica somewhere. Fabio
+Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen (maybe also show no-gade experiment here), Ross, fresh shelf transect in East Antarctica somewhere. Fabio
 
 Fig 8 - Cross slope transports, dense water export in different regions. Claire
 
