@@ -14,6 +14,10 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 
 #### Fig 3 - Heat and freshwater budgets. Fabio
 
+ <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8631257/832534e5-45da-4c5c-9f46-c94e4f60ef6c">
+
+ <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8631257/46468dc3-2867-4c85-85da-d5884f576074">
+
 #### Fig 4 - Circumpolar T/S at bottom compared to Schmidtko obs on shelf and WOA in abyss. Hannah
 
  <img width="600" alt="Screenshot 2023-08-10 at 10 15 02 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8506963/311b682a-ae2d-4176-9ddc-2286db1158e1">
