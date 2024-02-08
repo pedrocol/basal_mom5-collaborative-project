@@ -6,7 +6,7 @@ Note that there is detailed discussion of these figure in [this issue](https://g
 
 Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 
-Fig 1 - Model setup / schematic. Pedro/Matt
+#### Fig 1 - Model setup / schematic. Pedro/Matt
 
 <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/23285319/415eafaf-eb67-462e-9305-0b6ec123df1e">
 
