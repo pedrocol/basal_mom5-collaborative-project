@@ -10,21 +10,21 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 
 <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/23285319/415eafaf-eb67-462e-9305-0b6ec123df1e">
 
-Fig 2 - Iceberg flux map. Basal melt max depth vs longitude. Basal/iceberg split vs longitude. Pedro/Matt
+#### Fig 2 - Iceberg flux map. Basal melt max depth vs longitude. Basal/iceberg split vs longitude. Pedro/Matt
 
-Fig 3 - Heat and freshwater budgets. Fabio
+#### Fig 3 - Heat and freshwater budgets. Fabio
 
-Fig 4 - Circumpolar T/S at bottom compared to Schmidtko obs on shelf and WOA in abyss. Hannah
+#### Fig 4 - Circumpolar T/S at bottom compared to Schmidtko obs on shelf and WOA in abyss. Hannah
 
  <img width="600" alt="Screenshot 2023-08-10 at 10 15 02 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8506963/311b682a-ae2d-4176-9ddc-2286db1158e1">
 <img width="600" alt="Screenshot 2023-08-10 at 10 20 57 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8506963/fb0f0528-93cf-4c61-b858-02f00b4a63e8">
  
-Fig 5 - Bottom age, showing changes in ventilation. Adele
+#### Fig 5 - Bottom age, showing changes in ventilation. Adele
 
-Fig 6 - T/S diagrams - circumpolar or several regions? Compare to obs (tricky)? Hannah
+#### Fig 6 - T/S diagrams - circumpolar or several regions? Compare to obs (tricky)? Hannah
 
-Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen (maybe also show no-gade experiment here), Ross, fresh shelf transect in East Antarctica somewhere. Fabio
+#### Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen (maybe also show no-gade experiment here), Ross, fresh shelf transect in East Antarctica somewhere. Fabio
 
-Fig 8 - Cross slope transports, dense water export in different regions. Claire
+#### Fig 8 - Cross slope transports, dense water export in different regions. Claire
 
-Fig 9 - Sea ice. Andrew / Paul
+#### Fig 9 - Sea ice. Andrew / Paul
