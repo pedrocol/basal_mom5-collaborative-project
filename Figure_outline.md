@@ -29,6 +29,8 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 
 #### Fig 6 - T/S diagrams - circumpolar or several regions? Compare to obs (tricky)? Hannah
 
+ <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/62230733/f1266933-cba9-46de-b142-8a7d4fc4680e">
+
 #### Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen (maybe also show no-gade experiment here), Ross, fresh shelf transect in East Antarctica somewhere. Fabio
 
  <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/23285319/3929fc46-3615-47a4-8038-084dfe63669b">
