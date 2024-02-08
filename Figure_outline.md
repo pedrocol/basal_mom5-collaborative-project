@@ -25,10 +25,16 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
  
 #### Fig 5 - Bottom age, showing changes in ventilation. Adele
 
+ <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/23285319/e9720726-17ef-4870-a8da-06886d3eb6c0">
+
 #### Fig 6 - T/S diagrams - circumpolar or several regions? Compare to obs (tricky)? Hannah
 
 #### Fig 7 - Regional analysis, transects, T / S / age / isopycnals. What regions? Amundsen (maybe also show no-gade experiment here), Ross, fresh shelf transect in East Antarctica somewhere. Fabio
 
+ <img width="600" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/23285319/3929fc46-3615-47a4-8038-084dfe63669b">
+
 #### Fig 8 - Cross slope transports, dense water export in different regions. Claire
+
+<img width="600" alt="image" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/61528379/2a64d2b0-a1a3-4708-892a-790d2505602c">
 
 #### Fig 9 - Sea ice. Andrew / Paul
