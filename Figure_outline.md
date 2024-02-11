@@ -20,8 +20,8 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 
 #### Fig 4 - Circumpolar T/S at bottom compared to Schmidtko obs on shelf and WOA in abyss. Hannah
 
- <img width="600" alt="Screenshot 2023-08-10 at 10 15 02 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8506963/311b682a-ae2d-4176-9ddc-2286db1158e1">
-<img width="600" alt="Screenshot 2023-08-10 at 10 20 57 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/8506963/fb0f0528-93cf-4c61-b858-02f00b4a63e8">
+<img width="600" alt="Screenshot 2023-08-10 at 10 20 57 am" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/62230733/80fb91c4-41db-423a-a030-672f15095983">
+
  
 #### Fig 5 - Bottom age, showing changes in ventilation. Adele
 
