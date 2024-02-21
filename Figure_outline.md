@@ -41,3 +41,5 @@ Most of these will show control, basal-gade and iceberg (not basal-no-gade)
 <img width="600" alt="image" src="https://github.com/pedrocol/basal_mom5-collaborative-project/assets/61528379/2a64d2b0-a1a3-4708-892a-790d2505602c">
 
 #### Fig 9 - Sea ice. Andrew / Paul
+
+Take your pick from these https://github.com/pedrocol/basal_mom5-collaborative-project/issues/64
