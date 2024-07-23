@@ -22,18 +22,24 @@ This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, star
 
 ## New simulations (use these ones!!):
 
-GPC023 (Basal with Gade, No ICB)              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb   : Tbasal based on Gade line, calving flux inserted at the surface as runoff
+GPC023 (Basal with Gade, No ICB)                              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb   : Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-GPC026 (Basal with Gade, Yes ICB with gade)   01deg_jra55v13_ryf9091_DSW_BasalGade_YesIcb  : Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
+GPC026 (Basal with Gade, Yes ICB with gade)                   01deg_jra55v13_ryf9091_DSW_BasalGade_YesIcb  : Tbasal based on Gade line and Merino distributed Iceberg Calving Flux on Gade line
 
-GPC029 (Basal No Gade, No ICB)                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+GPC029 (Basal No Gade, No ICB)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+
+GPC061 (Basal with Gade, Yes ICB with gade, brine param)      01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+
+GPC062 (Basal with Gade, No ICB, brine param)                 01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+
+GPC063 (Control, brine param)                                 01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb : Control, calving and basal inserted at the surface as runoff
 
 session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
 
 Control simulation can be found here:
 ```
 session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
-control = '01deg_jra55v13_ryf9091_DSW'
+original control = '01deg_jra55v13_ryf9091_DSW'
 ```
 
 ## Hackathon schedule (in Canberra/Sydney time zone)
