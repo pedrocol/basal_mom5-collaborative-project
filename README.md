@@ -22,7 +22,7 @@ This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, star
 
 ## New simulations (use these ones!!):
 
-GPC029 (Basal No Gade)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb     : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+GPC029 (Basal)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb     : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
 
 GPC023 (Basal with Gade)                              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb       : Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
