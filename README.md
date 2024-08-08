@@ -37,6 +37,46 @@ session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db
 original control = '01deg_jra55v13_ryf9091_DSW'
 ```
 
+## Plotting formats/dict:
+
+```
+# CONTROL
+session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
+master_session = cc.database.create_session(session_name)
+#experiment
+control = '01deg_jra55v13_ryf9091_DSW'
+
+#PERTURBATIONS
+session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
+basal_melt_session = cc.database.create_session(session_name)
+#experiments
+basal_gade_woa_newname = '01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb'
+basal_nogade_woa = '01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb'
+basal_gade_brine = '01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine'
+
+#dict with plotting colors, linestyles, linewidth, and a shortname which may or may not be useful
+exptdict = OrderedDict([
+    ('Control',  {'expt':control,'session':master_session,
+                  'colors':"#000000",'linestyles':'-','linewidth':3,'shortname':'control'}),
+    ('Basal',  {'expt':basal_nogade_woa,'session':basal_melt_session,
+                'colors':"#DDAA33",'linestyles':'--','linewidth':2,'shortname':'basal_nogade'}),
+    ('BasalGade',  {'expt':basal_gade_woa_newname,'session':basal_melt_session,
+                    'colors':"#BB5566",'linestyles':'--','linewidth':2,'shortname':'basal'}),
+    ('BasalGadeBrine',  {'expt':basal_gade_brine,'session':basal_melt_session,
+                         'colors':"steelblue",'linestyles':'-','linewidth':2,'shortname':'basal_gade_brine'}),
+])
+keys = ['Control','Basal','BasalGade','BasalGadeBrine']
+
+#observational data should be color = 'grey', linestyle = '-', linewidth =3
+
+# to plot:
+for i in np.arange(4):
+    ekey = keys[i]
+    color = exptdict[ekey]['colors']
+    #etc....
+
+```
+
 ## Hackathon schedule (in Canberra/Sydney time zone)
 
 Fortnightly on Thursday mornings:
