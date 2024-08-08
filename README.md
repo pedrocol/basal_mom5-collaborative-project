@@ -24,9 +24,9 @@ This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, star
 
 GPC029 (Basal)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb     : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
 
-GPC023 (Basal with Gade)                              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb       : Tbasal based on Gade line, calving flux inserted at the surface as runoff
+GPC023 (Basal-Gade)                           01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb       : Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-GPC062 (Basal with Gade, brine param)                 01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine : Tbasal based on Gade line, calving flux inserted at the surface as runoff, brine param.
+GPC062 (Basal-Gade-Brine)                     01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine : Tbasal based on Gade line, calving flux inserted at the surface as runoff, brine param.
 
 
 session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
