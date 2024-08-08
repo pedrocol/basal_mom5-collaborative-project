@@ -39,7 +39,7 @@ original control = '01deg_jra55v13_ryf9091_DSW'
 
 ## Plotting formats/dict:
 
-```
+```python
 # CONTROL
 session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
 master_session = cc.database.create_session(session_name)
@@ -73,8 +73,12 @@ keys = ['Control','Basal','BasalGade','BasalGadeBrine']
 for i in np.arange(4):
     ekey = keys[i]
     color = exptdict[ekey]['colors']
-    #etc....
+    # etc...
 
+# or (neater)
+for ekey, e in exptdict.items():
+    color = e['colors']
+    # etc...
 ```
 
 ## Hackathon schedule (in Canberra/Sydney time zone)
