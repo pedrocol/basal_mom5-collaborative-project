@@ -88,7 +88,20 @@ for ekey, e in exptdict.items():
     color = e['colors']
     # etc...
 ```
+another approach:
+```python
+styles = { # defines line plot order, legend labels (keys) and keyword args (dicts)
+    'Obs':            {'color':'grey',      'linestyle':'-',  'linewidth':3},
+    'Control':        {'color':"#000000",   'linestyle':'-',  'linewidth':3},
+    'Basal':          {'color':"#DDAA33",   'linestyle':'--', 'linewidth':2},
+    'BasalGade':      {'color':"#BB5566",   'linestyle':'--', 'linewidth':2},
+    'BasalGadeBrine': {'color':"steelblue", 'linestyle':'-',  'linewidth':2},
+}
 
+# plot like so, if `data` is a dict of dataarrays with keys that are (possibly a subset of) the keys in `styles`
+for k, d in data.items():
+    plt.plot(d, label=k, **styles[k])
+```
 ## Hackathon schedule (in Canberra/Sydney time zone)
 
 Fortnightly on Thursday mornings:
