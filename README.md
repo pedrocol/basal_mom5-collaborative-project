@@ -37,10 +37,10 @@ session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db
 original control = '01deg_jra55v13_ryf9091_DSW'
 ```
 
-## Climatology: use the final 5 years (1905 - 1909 inclusive)
+## Climatology: use the final 3 years (1907 - 1909 inclusive)
 
 ```python
-start_time = '1905-01-01'
+start_time = '1907-01-01'
 end_time = '1910-01-01'
 time_slice = slice(start_time, end_time)
 ```
