@@ -68,12 +68,12 @@ exptdict = OrderedDict([
                   'colors':"#000000",'linestyles':'-','linewidth':3,'shortname':'control'}),
     ('Basal',  {'expt':basal_nogade_woa,'session':basal_melt_session,
                 'colors':"#DDAA33",'linestyles':'--','linewidth':2,'shortname':'basal_nogade'}),
-    ('BasalGade',  {'expt':basal_gade_woa_newname,'session':basal_melt_session,
+    ('Basal_LH',  {'expt':basal_gade_woa_newname,'session':basal_melt_session,
                     'colors':"#BB5566",'linestyles':'--','linewidth':2,'shortname':'basal'}),
-    ('BasalGadeBrine',  {'expt':basal_gade_brine,'session':basal_melt_session,
+    ('Basal_LH_Brine',  {'expt':basal_gade_brine,'session':basal_melt_session,
                          'colors':"steelblue",'linestyles':'-','linewidth':2,'shortname':'basal_gade_brine'}),
 ])
-keys = ['Control','Basal','BasalGade','BasalGadeBrine']
+keys = ['Control','Basal','Basal_LH','Basal_LH_Brine']
 
 #observational data should be color = 'grey', linestyle = '-', linewidth =3
 
@@ -94,8 +94,8 @@ styles = { # defines line plot order, legend labels (keys) and keyword args (dic
     'Obs':            {'color':'grey',      'linestyle':'-',  'linewidth':3},
     'Control':        {'color':"#000000",   'linestyle':'-',  'linewidth':3},
     'Basal':          {'color':"#DDAA33",   'linestyle':'--', 'linewidth':2},
-    'BasalGade':      {'color':"#BB5566",   'linestyle':'--', 'linewidth':2},
-    'BasalGadeBrine': {'color':"steelblue", 'linestyle':'-',  'linewidth':2},
+    'Basal_LH':       {'color':"#BB5566",   'linestyle':'--', 'linewidth':2},
+    'Basal_LH_Brine': {'color':"steelblue", 'linestyle':'-',  'linewidth':2},
 }
 
 # plot like so, if `data` is a dict of dataarrays with keys that are (possibly a subset of) the keys in `styles`
