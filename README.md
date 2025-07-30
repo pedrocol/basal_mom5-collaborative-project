@@ -111,10 +111,12 @@ Fortnightly on Thursday mornings:
 
 The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). These output are sitting in the following directories:
 
-control = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
-control_SOFIA = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
-basal (noGade) = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
-basal_SOFIA = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
-basal_LH_brine =  /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
-basal_LH_brine_SOFIA = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
+```
+control                  = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
+control_SOFIA            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
+basal (noGade)           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
+basal_SOFIA              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
+basal_LH_brine           =  /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
+basal_LH_brine_SOFIA     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
+```
 
