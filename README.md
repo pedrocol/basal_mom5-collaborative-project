@@ -102,10 +102,13 @@ styles = { # defines line plot order, legend labels (keys) and keyword args (dic
 for k, d in data.items():
     plt.plot(d, label=k, **styles[k])
 ```
+
+# ================================================================================================================================================================================================
+
 ## Hackathon schedule (in Canberra/Sydney time zone)
 
-Fortnightly on Thursday mornings:
-
+Fortnightly on Thursday mornings: 9:30-10:30am
+- Next meeting on 7th August, 2025
 
 ## Part 2 experiments: +50% Meltwater follwing SSP1-2.6
 
@@ -116,7 +119,8 @@ control                  = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf
 control_SOFIA            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
 basal (noGade)           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
 basal_SOFIA              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
-basal_LH_brine           =  /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
+basal_LH_brine           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
 basal_LH_brine_SOFIA     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
 ```
+
 
