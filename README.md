@@ -116,11 +116,26 @@ The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, an
 
 ```
 control                  = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
-control_SOFIA            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
+control_SOFIA (ssp126)            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
+control_SOFIA_antwater            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater
 basal (noGade)           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
-basal_SOFIA              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
+basal_SOFIA (ssp126)              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
 basal_LH_brine           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
-basal_LH_brine_SOFIA     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
+basal_LH_brine_SOFIA (ssp126)     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
+basal_LH_brine_SOFIA_antwater     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_antwater
 ```
 
+I have created a intake datastore for each experiments (both part I and II) here:
+`/g/data/e14/fbd581/Basal_Pedro_project/intake_datastore`
 
+And respective names are:
+```
+DSW_control -> present-day control
+DSW_control_sofia -> SOFIA SSP1-2.6 control
+DSW_control_antwater -> SOFIA Antwater control
+Basal -> present-day basal (no Gade)
+Basal_sofia -> SOFIA SSP1-2.6 basal
+Basal_LH_Brine -> present-day basal (no Gade)
+Basal_LH_Brine_sofia -> SOFIA SSP1-2.6 basal
+Basal_LH_Brine_antwater -> SOFIA Antwater control
+```
