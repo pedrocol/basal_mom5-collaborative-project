@@ -107,8 +107,8 @@ for k, d in data.items():
 
 ## Hackathon schedule (in Canberra/Sydney time zone)
 
-Fortnightly on Thursday mornings: 9:30-10:30am
-- Next meeting on 7th August, 2025
+Fortnightly on Thursday mornings: 9:00-10:00am
+- Next meeting on 2nd or 16th February, 2026 (pending confirmation): https://utas.zoom.us/j/86813420539
 
 ## Part 2 experiments: +50% Meltwater follwing SSP1-2.6
 
