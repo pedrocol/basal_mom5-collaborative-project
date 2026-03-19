@@ -110,7 +110,7 @@ for k, d in data.items():
 Fortnightly on Thursday mornings: 9:00-10:00am
 - Next meeting on 2nd or 16th February, 2026 (pending confirmation): https://utas.zoom.us/j/86813420539
 
-## Part 2 experiments: +50% Meltwater follwing SSP1-2.6
+## Part 2 experiments: Meltwater anomaly experiments follwing SOFIA protocol (SSP1-2.6 and Antwater)
 
 The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). These output are sitting in the following directories:
 
