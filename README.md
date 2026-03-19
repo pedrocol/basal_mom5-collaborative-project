@@ -115,11 +115,17 @@ Fortnightly on Thursday mornings: 9:30-10:30am
 The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). These output are sitting in the following directories:
 
 ```
-control                  = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
+control                           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
+control_LH                        = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4
+
 control_SOFIA (ssp126)            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
 control_SOFIA_antwater            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater
-basal (noGade)           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
+control_SOFIA_antwater_LH         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273
+control_LH_SOFIA_antwater         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28
+
+basal (noGade)                    = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
 basal_SOFIA (ssp126)              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
+
 basal_LH_brine           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
 basal_LH_brine_SOFIA (ssp126)     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
 basal_LH_brine_SOFIA_antwater     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_antwater
@@ -138,4 +144,7 @@ Basal_sofia -> SOFIA SSP1-2.6 basal
 Basal_LH_Brine -> present-day basal (no Gade)
 Basal_LH_Brine_sofia -> SOFIA SSP1-2.6 basal
 Basal_LH_Brine_antwater -> SOFIA Antwater control
+DSW_control_LH -> present-day control with Gade line (all runoff)
+DSW_control_LH_antwater -> SOFIA Antwater control with Gade line (all runoff)
+DSW_control_antwater_LH -> SOFIA Antwater control with Gade line ONLY for MW anomaly
 ```
