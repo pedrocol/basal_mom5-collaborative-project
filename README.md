@@ -22,11 +22,12 @@ This parameterization is run as a perturbation of `01deg_jra55v13_ryf9091`, star
 
 ## New simulations (use these ones!!):
 
-GPC023 (Basal with Gade, No ICB)                              01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb       : Tbasal based on Gade line, calving flux inserted at the surface as runoff
+GPC029 (Basal)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb     : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
 
-GPC029 (Basal No Gade, No ICB)                                01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb     : Tbasal equal Tinsitu, calving flux inserted at the surface as runoff
+GPC023 (Basal_LH)                           01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb       : Tbasal based on Gade line, calving flux inserted at the surface as runoff
 
-GPC062 (Basal with Gade, No ICB, brine param)                 01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine : Tbasal based on Gade line, calving flux inserted at the surface as runoff, brine param.
+GPC062 (Basal_LH_Brine)                     01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine : Tbasal based on Gade line, calving flux inserted at the surface as runoff, brine param.
+
 
 session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
 
@@ -36,8 +37,114 @@ session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db
 original control = '01deg_jra55v13_ryf9091_DSW'
 ```
 
+## Climatology: use the final 3 years (1907 - 1909 inclusive)
+
+```python
+start_time = '1907-01-01'
+end_time = '1910-01-01'
+time_slice = slice(start_time, end_time)
+```
+
+## Plotting formats/dict:
+
+```python
+# CONTROL
+session_name = '/g/data/v45/wf4500/databases/gdata_01deg_jra55v13_ryf9091_DSW.db'
+master_session = cc.database.create_session(session_name)
+#experiment
+control = '01deg_jra55v13_ryf9091_DSW'
+
+#PERTURBATIONS
+session_name = '/g/data/ik11/databases/basal_melt_MOM5.db'
+basal_melt_session = cc.database.create_session(session_name)
+#experiments
+basal_gade_woa_newname = '01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb'
+basal_nogade_woa = '01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb'
+basal_gade_brine = '01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine'
+
+#dict with plotting colors, linestyles, linewidth, and a shortname which may or may not be useful
+exptdict = OrderedDict([
+    ('Control',  {'expt':control,'session':master_session,
+                  'colors':"#000000",'linestyles':'-','linewidth':3,'shortname':'control'}),
+    ('Basal',  {'expt':basal_nogade_woa,'session':basal_melt_session,
+                'colors':"#DDAA33",'linestyles':'--','linewidth':2,'shortname':'basal_nogade'}),
+    ('Basal_LH',  {'expt':basal_gade_woa_newname,'session':basal_melt_session,
+                    'colors':"#BB5566",'linestyles':'--','linewidth':2,'shortname':'basal'}),
+    ('Basal_LH_Brine',  {'expt':basal_gade_brine,'session':basal_melt_session,
+                         'colors':"steelblue",'linestyles':'-','linewidth':2,'shortname':'basal_gade_brine'}),
+])
+keys = ['Control','Basal','Basal_LH','Basal_LH_Brine']
+
+#observational data should be color = 'grey', linestyle = '-', linewidth =3
+
+# to plot:
+for i in np.arange(4):
+    ekey = keys[i]
+    color = exptdict[ekey]['colors']
+    # etc...
+
+# or (neater)
+for ekey, e in exptdict.items():
+    color = e['colors']
+    # etc...
+```
+another approach:
+```python
+styles = { # defines line plot order, legend labels (keys) and keyword args (dicts)
+    'Obs':            {'color':'grey',      'linestyle':'-',  'linewidth':3},
+    'Control':        {'color':"#000000",   'linestyle':'-',  'linewidth':3},
+    'Basal':          {'color':"#DDAA33",   'linestyle':'--', 'linewidth':2},
+    'Basal_LH':       {'color':"#BB5566",   'linestyle':'--', 'linewidth':2},
+    'Basal_LH_Brine': {'color':"steelblue", 'linestyle':'-',  'linewidth':2},
+}
+
+# plot like so, if `data` is a dict of dataarrays with keys that are (possibly a subset of) the keys in `styles`
+for k, d in data.items():
+    plt.plot(d, label=k, **styles[k])
+```
+
+# ================================================================================================================================================================================================
+
 ## Hackathon schedule (in Canberra/Sydney time zone)
 
-Fortnightly on Thursday mornings:
+Fortnightly on Thursday mornings: 9:00-10:00am
+- Next meeting on 2nd or 16th February, 2026 (pending confirmation): https://utas.zoom.us/j/86813420539
 
+## Part 2 experiments: Meltwater anomaly experiments follwing SOFIA protocol (SSP1-2.6 and Antwater)
 
+The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). These output are sitting in the following directories:
+
+```
+control                           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
+control_LH                        = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4
+
+control_SOFIA (ssp126)            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
+control_SOFIA_antwater            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater
+control_SOFIA_antwater_LH         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273
+control_LH_SOFIA_antwater         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28
+
+basal (noGade)                    = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
+basal_SOFIA (ssp126)              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
+
+basal_LH_brine           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
+basal_LH_brine_SOFIA (ssp126)     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
+basal_LH_brine_SOFIA_antwater     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_antwater
+```
+
+I have created a intake datastore for each experiments (both part I and II) here:
+`/g/data/e14/fbd581/Basal_Pedro_project/intake_datastore`
+
+And respective names are:
+```
+DSW_control -> present-day control
+DSW_control_sofia -> SOFIA SSP1-2.6 control
+DSW_control_antwater -> SOFIA Antwater control
+Basal -> present-day basal (no Gade)
+Basal_sofia -> SOFIA SSP1-2.6 basal
+Basal_LH_Brine -> present-day basal (no Gade)
+Basal_LH_Brine_sofia -> SOFIA SSP1-2.6 basal
+Basal_LH_Brine_antwater -> SOFIA Antwater control
+DSW_control_LH -> present-day control with Gade line (all runoff)
+DSW_control_LH_antwater -> SOFIA Antwater control with Gade line (all runoff)
+DSW_control_antwater_LH -> SOFIA Antwater control with Gade line ONLY for MW anomaly
+```
