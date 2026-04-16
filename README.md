@@ -135,16 +135,16 @@ I have created a intake datastore for each experiments (both part I and II) here
 `/g/data/e14/fbd581/Basal_Pedro_project/intake_datastore`
 
 And respective names are:
-```
-DSW_control -> present-day control
-DSW_control_sofia -> SOFIA SSP1-2.6 control
-DSW_control_antwater -> SOFIA Antwater control
-Basal -> present-day basal (no Gade)
-Basal_sofia -> SOFIA SSP1-2.6 basal
-Basal_LH_Brine -> present-day basal (no Gade)
-Basal_LH_Brine_sofia -> SOFIA SSP1-2.6 basal
-Basal_LH_Brine_antwater -> SOFIA Antwater control
-DSW_control_LH -> present-day control with Gade line (all runoff)
-DSW_control_LH_antwater -> SOFIA Antwater control with Gade line (all runoff)
-DSW_control_antwater_LH -> SOFIA Antwater control with Gade line ONLY for MW anomaly
-```
+
+| Experiment                    | Time Period | Description                                      |
+|-------------------------------|-------------|--------------------------------------------------|
+| DSW_control                   | 0–20 yrs    | Original control, surface MW                     |
+| DSW_control_LH                | 0–20 yrs    | Surface MW + LH removal                          |
+| Basal_LH_Brine                | 0–20 yrs    | Basal MW + LH removal                            |
+| DSW_control_antwater          | 10–20 yrs   | Surface MW + Antwater MW anomaly                 |
+| DSW_control_LH_antwater       | 10–20 yrs   | Surface MW + LH removal + Antwater MW anomaly    |
+| Basal_LH_Brine_antwater       | 10–20 yrs   | Basal MW + LH removal + Antwater MW anomaly      |
+| DSW_control_antwater_LH       | 10–20 yrs   | Surface MW + Antwater MW anomaly w/ LH removal   |
+| DSW_control_sofia             | 10–20 yrs   | Surface MW + SSP1.2‑6 MW anomaly                 |
+| Basal_LH_Brine_sofia          | 10–20 yrs   | Basal MW + LH removal + SSP1.2‑6 MW anomaly      |
+
