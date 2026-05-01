@@ -112,43 +112,14 @@ Fortnightly on Thursday mornings: 9:00-10:00am
 
 ## Part 2 experiments: Meltwater anomaly experiments follwing SOFIA protocol (SSP1-2.6 and Antwater)
 
-The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). These output are sitting in the following directories:
-
-```
-control                           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath
-control_LH                        = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4
-
-control_SOFIA (ssp126)            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126
-control_SOFIA_antwater            = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater
-control_SOFIA_antwater_LH         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273
-control_LH_SOFIA_antwater         = /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28
-
-basal (noGade)                    = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb
-basal_SOFIA (ssp126)              = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126
-
-basal_LH_brine           = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_rep
-basal_LH_brine_SOFIA (ssp126)     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126
-basal_LH_brine_SOFIA_antwater     = /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_antwater
-```
+The part 1 runs (control, basal, basal_LH_brine) were extended until year 20, and the +MW runs were restarted in 1st January year 10 (and ran for 10 years). 
 
 I have created a intake datastore for each experiments (both part I and II) here:
 `/g/data/e14/fbd581/Basal_Pedro_project/intake_datastore`
 
-And respective names are:
+A summary of the experiments, details and outputs location:
 
-| Experiment                    | Time Period | Description                                      |
-|-------------------------------|-------------|--------------------------------------------------|
-| DSW_control                   | 0–20 yrs    | Original control, surface MW                     |
-| DSW_control_LH                | 0–20 yrs    | Surface MW + LH removal                          |
-| Basal_LH_Brine                | 0–20 yrs    | Basal MW + LH removal                            |
-| DSW_control_antwater          | 10–20 yrs   | Surface MW + Antwater MW anomaly                 |
-| DSW_control_LH_antwater       | 10–20 yrs   | Surface MW + LH removal + Antwater MW anomaly    |
-| Basal_LH_Brine_antwater       | 10–20 yrs   | Basal MW + LH removal + Antwater MW anomaly      |
-| DSW_control_antwater_LH       | 10–20 yrs   | Surface MW + Antwater MW anomaly w/ LH removal   |
-| DSW_control_sofia             | 10–20 yrs   | Surface MW + SSP1.2‑6 MW anomaly                 |
-| Basal_LH_Brine_sofia          | 10–20 yrs   | Basal MW + LH removal + SSP1.2‑6 MW anomaly      |
-
-|                                                                                   |                                     Surface MW, no latent heat                                     |                                                                                                                   |                                                                                                                                 |   |
+|                                                                                   |                                    **Surface MW, no latent heat**                                     |                                                                                                                   |                                                                                                                                 |   |
 |-----------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|---|
 |                                                                                   | SFCCON                                                                                             | SFCSSP126                                                                                                         | SFCAntw                                                                                                                         |   |
 | Length simulation                                                                 | 20 years                                                                                           | 10 years                                                                                                          | 10 years                                                                                                                        |   |
@@ -159,7 +130,7 @@ And respective names are:
 | LH all runoff?                                                                    | No                                                                                                 | No                                                                                                                | No                                                                                                                              |   |
 | Path scratch/gdata                                                                | /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath                                  | /g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126                                    | /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater-d0ea3a2d                    |   |
 | Datastore name; Location: /g/data/e14/fbd581/Basal_Pedro_project/intake_datastore | DSW_control                                                                                        | DSW_control_sofia                                                                                                 | DSW_control_antwater                                                                                                            |   |
-|                                                                                   |                                     Surface MW with latent heat                                    |                                                                                                                   |                                                                                                                                 |   |
+|                                                                                   |                                     **Surface MW with latent heat**                                   |                                                                                                                   |                                                                                                                                 |   |
 |                                                                                   | SFC_LHCON                                                                                          | SFC_LHAntw                                                                                                        | SFCAntw_LH                                                                                                                      |   |
 | Length simulation                                                                 | 20 years                                                                                           | 10 years                                                                                                          | 10 years                                                                                                                        |   |
 | MW at SFC                                                                         | Yes                                                                                                | Yes                                                                                                               | Yes                                                                                                                             |   |
@@ -169,7 +140,7 @@ And respective names are:
 | LH all runoff?                                                                    | Yes                                                                                                | Yes                                                                                                               | No                                                                                                                              |   |
 | Path scratch/gdata                                                                | /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4 | /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28 | /scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273               |   |
 | Datastore name                                                                    | DSW_control_LH                                                                                     | DSW_control_LH_antwater                                                                                           | DSW_control_antwater_LH                                                                                                         |   |
-|                                                                                   |                                   Basal/Deep MW with latent heat                                   |                                                                                                                   |                                                                                                                                 |   |
+|                                                                                   |                                   **Basal/Deep MW with latent heat**                                   |                                                                                                                   |                                                                                                                                 |   |
 |                                                                                   | BASAL_LHCON                                                                                        | BASAL_LHSSP126                                                                                                    | BASAL_LHAntw                                                                                                                    |   |
 | Length simulation                                                                 | 20 years                                                                                           | 10 years                                                                                                          | 10 years                                                                                                                        |   |
 | MW at SFC                                                                         | No                                                                                                 | No                                                                                                                | No                                                                                                                              |   |
