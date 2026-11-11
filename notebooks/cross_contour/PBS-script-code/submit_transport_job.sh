@@ -19,13 +19,15 @@
 ## I/O filenames
 # this reads the name of the current run directory to use for output etc:
 #script_dir=/home/156/cy8964/x77/Analysis/cross_slope_transports/
-script_dir=/g/data/e14/fbd581/Basal_Pedro_project/updated_git_basal_mom5-collaborative/basal_mom5-collaborative-project/notebooks/cross_contour/PBS-script-code/
+#script_dir=/g/data/e14/fbd581/Basal_Pedro_project/updated_git_basal_mom5-collaborative/basal_mom5-collaborative-project/notebooks/cross_contour/PBS-script-code/
+script_dir=/g/data/e14/fbd581/Basal_Pedro_project/updating_github_repo/basal_mom5-collaborative-project/notebooks/cross_contour/PBS-script-code/
+
 cd $script_dir
 #output_dir=/g/data/v45/akm157/model_data/access-om2/01deg_jra55v140_iaf_cycle3/vhrho_binned/
 
 # load conda
 module use /g/data/xp65/public/modules
-module load conda/analysis3
+module load conda/analysis3-25.11
 
 # run
 python3 save_transports_along_contour_potrho0_v2.py $month $year &>> output_calc_transport_${month}_${year}.txt

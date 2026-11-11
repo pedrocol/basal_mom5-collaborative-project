@@ -42,7 +42,8 @@ if __name__ == '__main__':
     # - control:
     # path_ctrl_sofia = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_ssp126-2612799a"
     path_ctrl_sofia = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_ssp126"
-    path_ctrl_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater-d0ea3a2d"
+    # path_ctrl_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater-d0ea3a2d"
+    path_ctrl_antwater = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater"
     
     # - basal No Gade: GPC029 (Basal)   
     # path_noBG_sofia = '/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_basal_noGade_sofia_ssp126-8e5fedf5'
@@ -51,14 +52,19 @@ if __name__ == '__main__':
     # - basal Gade Brine: GPC062 (Basal_LH_Brine)    
     # path_BGB_sofia = '/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_basal_sofia_ssp126-3aec06e5'
     path_BGB_sofia = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126"
-    path_BGB_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_basal_sofia_antwater-a10baa1b"
+    # path_BGB_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_basal_sofia_antwater-a10baa1b"
+    path_BGB_antwater = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_antwater"
     
     path_testSSS = "/g/data/e14/fbd581/access-om2/01deg_jra55_ryf9091_21mbath_testSSSrestoring/archive"
     
     # new control runs with Gadel line:
-    path_ctrl_BG = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4"
-    path_ctrl_BG_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28"
-    path_ctrl_antwater_BG = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273"
+    # path_ctrl_BG = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade-914fd6e4"
+    # path_ctrl_BG_antwater = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater-383eae28"
+    #path_ctrl_antwater_BG = "/scratch/e14/fbd581/access-om2/fbd581/access-om2/archive/01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade-160c9273"
+    path_ctrl_BG = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_Gade"
+    path_ctrl_BG_antwater = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_Gade_sofia_antwater"
+    path_ctrl_antwater_BG = "/g/data/ik11/outputs/access-om2-01/01deg_jra55v13_ryf9091_21mbath_sofia_antwater_Gade"
+
 
     #### Load datastore:
     cat = intake.open_esm_datastore(
@@ -268,8 +274,8 @@ if __name__ == '__main__':
     #CAT = cat_antwater # control antwater
     #CAT = cat_BGB_antwater # BasalLHBrine antwater
     #CAT = cat_SSStest # no SSS restoring test
-    CAT = cat_ctrlBG # controlLH
-    #CAT = cat_ctrlBG_antwater # controlLH antwater
+    #CAT = cat_ctrlBG # controlLH
+    CAT = cat_ctrlBG_antwater # controlLH antwater
     #CAT = cat_ctrl_antwater_BG # control antwater_LH
 
     ## Define name of the expt (for output filename):
@@ -279,11 +285,12 @@ if __name__ == '__main__':
     #expt = "01deg_jra55v13_ryf9091_21mbath_sofia_ssp126" # control SSP126
     #expt = "01deg_jra55v13_ryf9091_DSW_BasalNoGade_NoIcb_sofia_ssp126"  # Basal (noGade) SSP126
     #expt = "01deg_jra55v13_ryf9091_DSW_BasalGade_NoIcb_Brine_sofia_ssp126" # BasalLHBrine SSP126
-    #expt = "01deg_jra55_ryf9091_21mbath_sofia_antwater-d0ea" 
-    #expt = "01deg_jra55_ryf9091_21mbath_basal_sofia_antwater_SSSrestoring-c1fb6bf0"
-    expt = "01deg_jra55_ryf9091_21mbath_Gade"
+    #expt = "01deg_jra55_ryf9091_21mbath_sofia_antwater" 
+    expt = "01deg_jra55_ryf9091_21mbath_basal_sofia_antwater"
+    #expt = "01deg_jra55_ryf9091_21mbath_Gade"
     #expt = "01deg_jra55_ryf9091_21mbath_Gade_sofia_antwater"
     #expt = "01deg_jra55_ryf9091_21mbath_sofia_antwater_Gade"
+
 
 	# Note vhrho_nt is v*dz*1035 and is positioned on north centre edge of t-cell.
     vhrho = CAT.search(variable='vhrho_nt', file_id='ocean.1day.nv:2.st_edges_ocean:76.st_ocean:75.xt_ocean_sub01:3600.yt_ocean_sub01:511').to_dask(xarray_open_kwargs={'decode_timedelta':True,'chunks' :{'time' : 2,'st_ocean' : 14,'grid_yt_ocean' : 600,'grid_xt_ocean' : 800,}})
